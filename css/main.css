@@ -6,14 +6,20 @@ body{
      margin:0;
      padding:0;
    }
+   body{
+    background-image: url(../images/img4.jpg);
+    background-size: cover;
+    z-index: 2;
+   }
    .myheader{
      width: 100%;
-     height: 99px;
-     background-color: #059dc6;
+     height: 80px;
+     background-color: #45f1eb;
      color: #fff;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     opacity:0.7;
    }
    .mylogo img{
      width: 66px;
@@ -27,10 +33,13 @@ body{
      display: flex;
      list-style: none;
      justify-content: space-around;
-   }
-   .mylist li{
-    margin-right:25px;
-     font-size: 22px;
+    }
+    .mylist li{
+      margin-right:25px;
+      font-size: 26px;
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
    }
    .myText{
      position: absolute;
@@ -42,7 +51,7 @@ body{
    }
    .myText h1{
      font-size:42px;
-     color:#059dc6;
+     color:#45f1eb;
      margin-bottom:20px;
    }
    .myText p{
