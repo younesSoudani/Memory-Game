@@ -9,7 +9,7 @@ body{
    .myheader{
      width: 100%;
      height: 99px;
-     background-color: #059dc6;
+     background-color: #19f615;
      color: #fff;
      display: flex;
      justify-content: space-between;
@@ -30,7 +30,7 @@ body{
    }
    .mylist li{
     margin-right:25px;
-     font-size: 22px;
+     font-size: 32px;
    }
    .myText{
      position: absolute;
@@ -41,8 +41,8 @@ body{
      text-align: center;
    }
    .myText h1{
-     font-size:42px;
-     color:#059dc6;
+     font-size:52px;
+     color:#19f615;
      margin-bottom:20px;
    }
    .myText p{
